@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+input[type=checkbox]:checked {
+  /*CSS after CHECKED*/
+  color: #13830f;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,6 +16,16 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.user-auth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffffc7;
+  color: rgb(7, 0, 0);
+  flex-direction: column;
 }
 
 .App-header {
