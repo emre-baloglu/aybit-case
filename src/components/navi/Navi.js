@@ -43,6 +43,18 @@ const Navi = () => {
                         ) : (
                             <Nav className="ms-auto" navbar>
                                 <NavItem>
+                                    <NavLink tag={Link} to="/list">
+                                        <Button
+                                            variant='outline-secondary'
+                                            className="btn"
+                                            data-toggle="modal"
+                                        >
+                                            <i className="material-icons">&#xE147;</i>
+                                            <span>User List</span>
+                                        </Button>
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
                                     <NavLink tag={Link} to="/login">
                                         <Button
                                             variant='outline-secondary'
